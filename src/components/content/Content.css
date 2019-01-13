@@ -1,0 +1,38 @@
+h3 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-size: 30;
+    color: 54657A;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.right {
+    flex-grow: 1;
+    /* background: green; */
+    margin-left: 25px;
+    margin-right: 25px;
+} 
+
+@media screen and (min-width: 1024px) {
+    .right {
+        flex-basis: 50%;
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

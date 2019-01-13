@@ -1,0 +1,29 @@
+/* Footer */
+.footerTopRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footerTopRowLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.footerTopRowRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.email {
+    font-size: 12px;
+}
+
+.signOff{
+    font-size: 12px;
+}
